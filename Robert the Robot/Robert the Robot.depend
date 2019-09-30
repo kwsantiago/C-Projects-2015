@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1423607433 source:d:\c++projects\robert the robot\main.cpp
+	<iostream>
+	<iostream>
+	<stdlib.h>
+	<cstdlib>
+	<time.h>
+	<stdio.h>
+	<string>
+	<Windows.h>
+	<sstream>
+
