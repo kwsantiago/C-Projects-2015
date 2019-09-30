@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1545355683 source:c:\users\kyles\documents\github\horoscope-2019\main.cpp
+	<iostream>
+	<cstdlib>
+
