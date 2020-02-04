@@ -4,10 +4,8 @@ using namespace std;
 
 int main( )
 {
-   char fName[50];
-   char lName[50];
-   int age = 13;
-   int age1;
+   char fName[50],lName[50];
+   int age1,age = 13;
 
     cout << "Welcome to this website!" << endl;
     cout << "In order to enter the website, you will need to enter the following information:" << endl;
