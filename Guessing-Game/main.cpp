@@ -9,9 +9,7 @@ using namespace std;
 int main ()
 {
   string response;
-  int guess;
-  int random;
-  int chance = 9;
+  int guess,random,chance = 9;
   srand (time(0));
   random = rand()% 50 + 1;
   cout << "Would you like to play a guessing game with me? \n";
