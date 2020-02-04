@@ -11,9 +11,12 @@ using namespace std;
 
 int main()
 {
-    string name;
-    string feeling;
-    string response;
+    string name,feeling,response;
+    int guess,random,chance;
+    srand (time(0));
+    random = rand()% 100 + 1;
+    chance = 9;
+
     cout << "Hi, I'm Robert the robot.\n";
     cout << "What's your name?\n";
     cin >> name;
@@ -26,15 +29,10 @@ int main()
     || feeling == "i'm feeling great" || feeling == "I'm feeling great" || feeling == "I'm feeling great."
     || feeling == "Im feeling great" || feeling == "Im feeling great." || feeling == "im feeling great.")
     {
-        cout << "Awesome!" << endl;
-        string response;
-  int guess;
-  int random;
-  int chance = 9;
-  srand (time(0));
-  random = rand()% 100 + 1;
-  cout << "Would you like to play a guessing game? \n";
-  cin >> response;
+    cout << "Awesome!" << endl;
+
+    cout << "Would you like to play a guessing game? \n";
+    cin >> response;
   if (response == "Yes" || response == "yes" || response == "Yea" || response == "yea" || response == "Yup" || response == "yup" || response == "sure" || response == "Sure")
     {
       cout << "Awesome, let's get started! \n";
