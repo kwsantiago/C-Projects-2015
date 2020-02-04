@@ -5,8 +5,7 @@ using namespace std;
 
 int main()
 {
-    float a;
-    float b;
+    float a,b;
     char type;
     cout << "Please enter a math problem between two numbers: ";
     cin >> a;
