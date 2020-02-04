@@ -3,8 +3,7 @@
 using namespace std;
 
 int main(){
-    int month;
-    int day;
+    int day,month;
     cout << "Horoscope 2015 by Kyle Santiago\n";
     cout << "Horoscope information provided by astrology.horoscope.com\n\n";
     cout << "1: January\n2: February\n3: March\n4: April\n5: May\n6: June\n7: July\n8: August\n9: September\n10: October\n11: November\n12: December\n";
